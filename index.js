@@ -14,7 +14,7 @@ getBooks()
 
 app.use(express.json())
 app.get('/', (req, res) => {
-   res.send('')
+   res.send({ postmandocs: 'https://documenter.getpostman.com/view/22926184/2sA3dvjC6b' })
 })
 
 
