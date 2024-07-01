@@ -81,8 +81,8 @@ https://shipmnts-task.onrender.com
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/book-review-platform.git
-   cd book-review-platform
+   git clone https://github.com/mihirh19/shipmnts_task
+   cd shipmnts_task
 
    ```
 
