@@ -1,8 +1,7 @@
 const express = require('express')
 const router = express.Router();
-router.get('/', async (req, res) => {
+const { getBooks } = require('../controllers/bookControllers')
+const { protect } = require('../middlewares/authorization')
 
-   res.json({ "message": "Hello World!" })
-})
-
+router.get('/', protect, getBooks)
 module.exports = router;   
